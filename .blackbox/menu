@@ -1,0 +1,6 @@
+[begin] (Blackbox)
+[exec] (xterm) {xterm}
+[exec] (Firefox) {firefox}
+[restart] (Restart)
+[exit] (Exit)
+[end]

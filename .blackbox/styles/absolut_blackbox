@@ -1,0 +1,115 @@
+! Title:        absolut_blackbox
+! By:           erik s fredricks <erik@lonelymachines.org>
+! Comment:      Colors taken from the absolut_wm theme for WindowMaker, which
+!               was inspired by the absolute_e theme for Enlightenment.
+
+       toolbar:                        Raised Gradient Crossdiagonal
+       toolbar.color:                  #484848
+       toolbar.colorTo:                #353535
+
+       toolbar.*.textColor:            #e0e0e0
+       toolbar.*.color:                #484848
+       toolbar.*.colorTo:              #353535
+
+       toolbar.button:                 Raised Gradient Vertical
+
+       toolbar.button.picColor:        #e2d8cb
+
+       toolbar.button.pressed:         Sunken Gradient Pyramid
+
+       toolbar.button.pressed.picColor:gray90
+
+       toolbar.label:                  Sunken Gradient Vertical
+
+       toolbar.windowLabel:            Sunken Gradient crossdiagonal
+
+       toolbar.clock:                  Sunken Gradient Vertical
+
+       toolbar.justify:                Right
+
+       toolbar.font:                   -b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-2
+
+       menu.title:                     Raised Gradient Vertical
+       menu.title.color:               #4c4c4c
+       menu.title.colorTo:             #353535
+       menu.title.textColor:           #e0e0e0
+       menu.title.font:                -b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-2
+       menu.title.justify:             Center
+
+       menu.frame:                     Gradient Horizontal
+       menu.frame.color:               #515a51
+       menu.frame.colorTo:             #444b44
+       menu.frame.textColor:           #d0d0d0
+       menu.frame.disableColor:        #686868
+       menu.frame.font:                -b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-2
+       menu.frame.justify:             Left
+
+       menu.bullet:                    empty
+       menu.bullet.position:           Right
+
+       menu.hilite:                    Raised Solid
+       menu.hilite.color:              #484848
+       menu.hilite.textColor:          #d0d0d0
+
+       window.title.*.color:           #484848
+       window.title.*.colorTo:         #353535
+
+       window.title.focus:             Gradient Crossdiagonal
+
+       window.title.unfocus:           Bevel1 Gradient Vertical
+
+       window.label.focus:             Gradient Vertical
+       window.label.focus.color:       #484848
+       window.label.focus.colorTo:     #353535
+       window.label.focus.textColor:   #e0e0e0
+
+       window.label.unfocus:           Gradient Vertical
+       window.label.unfocus.color:     #515a51
+       window.label.unfocus.colorTo:   #444b44
+       window.label.unfocus.textColor: #898989
+
+       window.handle.*.color:          #4c4c4c
+       window.handle.*.colorTo:        #353535
+
+       window.handle.focus:            Gradient Rectangle
+
+       window.handle.unfocus:          Gradient Rectangle
+
+       window.grip.*.color:            #484848
+
+       window.grip.focus:              Raised Solid
+
+       window.grip.unfocus:            Raised Solid
+
+       window.button.focus:            Raised Gradient Pyramid
+       window.button.focus.color:      #4c4c4c
+       window.button.focus.colorTo:    #353535
+       window.button.focus.picColor:   #d6d6d6
+
+       window.button.unfocus:          Raised Gradient Pyramid
+       window.button.unfocus.color:    #515a51
+       window.button.unfocus.colorTo:  #444b44
+       window.button.unfocus.picColor: #898989
+
+       window.button.pressed:          Sunken Gradient Pyramid
+       window.button.pressed.color:    #4c4c4c
+       window.button.pressed.colorTo:  #353535
+
+       window.frame.focusColor:        #353535
+       window.frame.unfocusColor:      #444b44
+
+       window.font:                    -b&h-lucidux sans-medium-r-normal-*-12-*-*-*-p-*-iso8859-2
+       window.justify:                 Right
+
+       borderWidth:                    1
+       borderColor:                    #000000
+
+       bevelWidth:                     2
+       handleWidth:                    4
+
+       frameWidth:                     1
+
+
+rootCommand:          bsetroot -mod 4 4 -from rgb:36/39/39 -to rgb:30/36/30
+
+! http://lonelymachines.org

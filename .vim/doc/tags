@@ -1,3 +1,9 @@
+g:VMEPextensions	vmep.txt	/*g:VMEPextensions*
+g:VMEPhtmlreader	vmep.txt	/*g:VMEPhtmlreader*
+g:VMEPoutputdirectory	vmep.txt	/*g:VMEPoutputdirectory*
+g:VMEPoutputformat	vmep.txt	/*g:VMEPoutputformat*
+g:VMEPstylesheet	vmep.txt	/*g:VMEPstylesheet*
+g:VMEPtemplate	vmep.txt	/*g:VMEPtemplate*
 loaded_potwiki	potwiki.txt	/*loaded_potwiki*
 potwiki	potwiki.txt	/*potwiki*
 potwiki-auto-help	potwiki.txt	/*potwiki-auto-help*
@@ -21,4 +27,8 @@ potwiki_lower	potwiki.txt	/*potwiki_lower*
 potwiki_other	potwiki.txt	/*potwiki_other*
 potwiki_suffix	potwiki.txt	/*potwiki_suffix*
 potwiki_upper	potwiki.txt	/*potwiki_upper*
+vmep-global-settings	vmep.txt	/*vmep-global-settings*
+vmep-local-settings	vmep.txt	/*vmep-local-settings*
+vmep-templates	vmep.txt	/*vmep-templates*
+vmep.txt	vmep.txt	/*vmep.txt*
 wiki	potwiki.txt	/*wiki*

@@ -1,5 +1,6 @@
 " General
 syntax on
+:set hlsearch
 
 " Plain Text Wiki plugin
 let potwiki_home = "~/Documents/Bliki/IndexPage.txt"

@@ -2,6 +2,9 @@
 syntax on
 :set hlsearch
 
+nnoremap <F12> i
+imap <F12> <Esc>
+
 " Plain Text Wiki plugin
 let potwiki_home = "~/Documents/Bliki/IndexPage.txt"
 let potwiki_suffix = ".txt"

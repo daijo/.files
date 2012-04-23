@@ -1,6 +1,8 @@
 if [ "$OSTYPE" == 'darwin11' ]
+then
     export NDK=~/Code/android-ndk-r7
 elif [ "$OSTYPE" == 'linux-gnu' ]
+then
     export NDK=~/Code/android-ndk-r7c
 fi
 

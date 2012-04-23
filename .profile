@@ -11,10 +11,10 @@ fi
 
 if [ "$OSTYPE" == 'linux-gnu' ]
 then
-    export PATH=~/bin:$NDK:~/Code/android-sdk-linux/tools/:~/Code/android-sdk-macosx/platform-tools/:$PATH
+    export PATH=$NDK:~/Code/android-sdk-linux/tools/:~/Code/android-sdk-macosx/platform-tools/:$PATH
 elif [ "$OSTYPE" == 'darwin11' ]
 then
-    export PATH=~/bin:/usr/bin:$NDK:~/Code/android-sdk-macosx/tools/:~/Code/android-sdk-macosx/platform-tools/:$HOME/Library/Haskell/bin:/opt/local/bin:/opt/local/sbin:$PATH
+    export PATH=/usr/bin:$NDK:~/Code/android-sdk-macosx/tools/:~/Code/android-sdk-macosx/platform-tools/:$HOME/Library/Haskell/bin:/opt/local/bin:/opt/local/sbin:$PATH
 fi
 
 # set PATH so it includes user's private bin if it exists

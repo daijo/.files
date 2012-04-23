@@ -1,4 +1,9 @@
-export NDK=~/Code/android-ndk-r7
+if [ "$OSTYPE" == 'darwin11' ]
+    export NDK=~/Code/android-ndk-r7
+elif [ "$OSTYPE" == 'linux-gnu' ]
+    export NDK=~/Code/android-ndk-r7c
+fi
+
 export SYSROOT=$NDK/platforms/android-8/arch-arm
 
 # if running bash

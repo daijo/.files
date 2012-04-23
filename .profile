@@ -31,5 +31,8 @@ fi
 
 LANG=en_US.UTF-8
 
+export CVSROOT=:ext:daijo@cvs.indianpacific.com.au:/cvs
+export CVS_RSH=/usr/bin/ssh
+
 # export NODE_PATH="/opt/local/lib/node"
 # export PYTHONSTARTUP=~/.pythonrc.py

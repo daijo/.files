@@ -31,6 +31,9 @@ fi
 
 LANG=en_US.UTF-8
 
+export ARDUINODIR=~/Code/Arduino
+export SERIALDEV=/dev/tty.usbserial-A4006DFy
+
 export CVSROOT=:ext:danielh@cvs.indianpacific.com.au:/cvs
 export CVS_RSH=/usr/bin/ssh
 

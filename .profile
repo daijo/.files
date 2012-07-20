@@ -20,10 +20,7 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 # Additonal PATH
-if [ "$OSTYPE" == 'linux-gnu' ]
-then
-    #export PATH=$NDK:~/Code/android-sdk-linux/tools/:~/Code/android-sdk-linux/platform-tools/:$PATH
-elif [ "$OSTYPE" == 'darwin11' ]
+if [ "$OSTYPE" == 'darwin11' ]
 then
     export PATH=/usr/bin:$HOME/Library/Haskell/bin:/opt/local/bin:/opt/local/sbin:$PATH
 fi

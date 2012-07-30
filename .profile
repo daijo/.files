@@ -1,5 +1,5 @@
 # Android SDK/NDK dev env
-if [ "$OSTYPE" == 'darwin11' ]
+if [ "$OSTYPE" == 'darwin12' ]
 then
     export NDK=~/Code/android-ndk-r7
     export PATH=$NDK:~/Code/android-sdk-macosx/tools/:~/Code/android-sdk-macosx/platform-tools/:$PATH
@@ -20,7 +20,7 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 # Additonal PATH
-if [ "$OSTYPE" == 'darwin11' ]
+if [ "$OSTYPE" == 'darwin12' ]
 then
     export PATH=/usr/bin:$HOME/Library/Haskell/bin:/opt/local/bin:/opt/local/sbin:$PATH
 fi

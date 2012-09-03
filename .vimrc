@@ -75,3 +75,7 @@ au FileType potwiki syn region myMkdHeaderFold
 au FileType potwiki syn sync fromstart
 au FileType potwiki set foldmethod=syntax
 
+" Arduino
+source ~/.vim/syntax/arduino.vim
+autocmd! BufNewFile,BufRead *.ino setlocal ft=arduino
+
